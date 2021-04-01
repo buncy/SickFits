@@ -10,4 +10,4 @@ npm run dev
 yarn dev
 ```
 
-Open [https://sick-fits-neon.vercel.app/](http://localhost:3000) with your browser to see the result.
+Open [https://sick-fits-neon.vercel.app/](https://sick-fits-neon.vercel.app/) with your browser to see the result.
