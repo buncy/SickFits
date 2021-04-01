@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function orders() {
-  return <div>Orders</div>;
+  return <div>this is the orders page</div>;
 }

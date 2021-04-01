@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function sell() {
-  return <div>Sell</div>;
+  return <div>this is the sell page</div>;
 }

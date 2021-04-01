@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function products() {
-  return <div>I am products</div>;
+  return <div>this is the products page</div>;
 }
