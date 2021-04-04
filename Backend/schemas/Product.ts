@@ -20,7 +20,7 @@ import { list } from "@keystone-next/keystone/schema";
                 inlineEdit:{fields:['image','altText']}
             }
     }),
-        discription:text({
+        description:text({
             ui:{
                 displayMode:"textarea"
             },
