@@ -5,6 +5,7 @@ import gql from "graphql-tag";
 import { useMutation } from "@apollo/client";
 import DisplayError from "../DisplayError";
 import { ALL_PRODUCTS_QUERY } from "../Products";
+import Router from "next/router";
 
 function CreateProduct() {
   const { inputs, handleChange, resetForm, clearForm } = useForm({
@@ -51,6 +52,10 @@ function CreateProduct() {
         //submit the input fields to the backend
         await createProduct();
         clearForm();
+        //go to that product's page
+        Router.push({
+          pathname: `/product/${res.data.createProduct.id}`,
+        });
       }}
     >
       <DisplayError error={error} />
