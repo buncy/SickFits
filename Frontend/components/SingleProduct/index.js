@@ -50,11 +50,8 @@ export default function SingleProduct({ id }) {
       <Head>
         <title>Sickfits | {Product.name}</title>
       </Head>
+      <img src={Product.photo.image.publicUrlTransformed} alt={Product.name} />
       <div className="details">
-        <img
-          src={Product.photo.image.publicUrlTransformed}
-          alt={Product.name}
-        />
         <h2>{Product.name}</h2>
         <p>{Product.description}</p>
       </div>
